@@ -16,7 +16,7 @@ function SignUp() {
           <Input placeholder="Nome"/>
           <Input placeholder="Email" />
           <Input placeholder="Senha" />
-          <Button onClick={() => navigate("/")}>Cadastrar</Button>
+          <Button type="button" onClick={() => navigate("/")}>Cadastrar</Button>
         </form>
       </SignUpWrapper>
     );

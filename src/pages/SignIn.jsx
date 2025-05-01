@@ -16,7 +16,7 @@ function SignIn() {
           <Input placeholder="Email"/>
           <Input placeholder="Senha"/>
           <Button onClick={() => navigate('/home')}>Entrar</Button>
-          <Button onClick={() => navigate('/sign-up')}>Cadastre-se</Button>
+          <Button type="button" onClick={() => navigate('/sign-up')}>Cadastre-se</Button>
         </form>
       </SignInWrapper>
     );
